@@ -14,8 +14,6 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: "1.36.3"
-      - name: Build Stew
-        run: deno task buildStew
       - name: Install Vercel CLI
         run: npm install --global vercel@latest
       - name: Pull Vercel Environment Information
