@@ -2,6 +2,7 @@ import { SegmentDataset } from "stew/config";
 import { MusicItem } from "./MusicItem.ts";
 import {
   getAppleLinkData,
+  getSoundcloudLinkData,
   getSpotifyLinkData,
   getYoutubeLinkData,
 } from "./getMusicLinkData.ts";
@@ -4790,6 +4791,465 @@ export default [
       }),
       getAppleLinkData({
         appleHref: "https://music.apple.com/us/album/glorious-game/1659479903",
+      }),
+    ],
+  },
+  {
+    itemId: 186,
+    musicType: "source",
+    sourceType: "mix",
+    musicThumbnailHref: "https://f4.bcbits.com/img/a3975204577_16.jpg",
+    musicYear: 2022,
+    musicTitle: "Live on KEXP",
+    musicArtist: ["King Gizzard & the Lizard Wizard"],
+    recordingContext: ["studio", "live"],
+    musicTags: ["experimental", "rock", "jazz"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref: "https://youtu.be/Jb8UMmrBlC8",
+      }),
+      {
+        linkLabel: "bandcamp",
+        linkHref:
+          "https://kinggizzardthelizardwizard.bandcamp.com/album/live-on-kexp-22",
+      },
+    ],
+  },
+  {
+    itemId: 187,
+    musicType: "source",
+    sourceType: "mix",
+    musicThumbnailHref: "https://f4.bcbits.com/img/a3975204577_16.jpg",
+    musicYear: 2022,
+    musicTitle: "Live on KEXP",
+    musicArtist: ["King Gizzard & the Lizard Wizard"],
+    recordingContext: ["studio", "live"],
+    musicTags: ["experimental", "rock", "jazz"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref: "https://youtu.be/Jb8UMmrBlC8",
+      }),
+      {
+        linkLabel: "bandcamp",
+        linkHref:
+          "https://kinggizzardthelizardwizard.bandcamp.com/album/live-on-kexp-22",
+      },
+    ],
+  },
+  {
+    itemId: 188,
+    musicType: "source",
+    sourceType: "mix",
+    musicThumbnailHref:
+      "https://stupiddope.com/wp-content/uploads/2023/08/Action-Bronsons-Flavorful-Performance-Jazzy-Renditions-at-NPRs-Tiny-Desk.png",
+    musicYear: 2023,
+    musicTitle: "Action Bronson: Tiny Desk",
+    musicArtist: ["Action Bronson"],
+    recordingContext: ["concert"],
+    musicTags: ["hip-hop", "soul", "rap"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref: "https://youtu.be/CUN8pdgA0m8",
+      }),
+      getSoundcloudLinkData({
+        soundcloudHref:
+          "https://soundcloud.com/whodatboy_jpeg/action-bronson-tiny-desk-concert",
+      }),
+    ],
+  },
+  {
+    itemId: 189,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "ep",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/41dZu3DQeiL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2016,
+    musicTitle: "Make You Mine",
+    musicArtist: ["Justin Jay", "Josh Taylor"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic", "dance"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/_2zLa0e5_wg?list=PLZY-3ghnt6pq8VxLU7_b6l_ZLsMY8J86h",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/7dPKB0fYYa7YqOza2wixLh?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/make-you-mine-feat-josh-taylor/1678606168",
+      }),
+    ],
+  },
+  {
+    itemId: 190,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/31gdvQ5i-zL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2009,
+    musicTitle: "Wait For Me Ambient",
+    musicArtist: ["Moby"],
+    recordingContext: ["studio"],
+    musicTags: ["ambient", "electronic"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/ibeu9BIA5xQ?list=OLAK5uy_nIG14xC_LToyl9uWQuTIudFnv671-RYPA",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/0rBTBsjMC1TfylRdkYvaZ8?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/wait-for-me-ambient/335956429",
+      }),
+    ],
+  },
+  {
+    itemId: 191,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/21uwfU5MUZL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2015,
+    musicTitle: "Days Gone By",
+    musicArtist: ["Bob Moses"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/OPK67ZvJfuw?list=OLAK5uy_kgyujLM8gTHJzUI2QLqapwutLlx2agOcM",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/0u3Rl4KquP15smujFrgGz4?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/days-gone-by-never-enough-edition/1140193778",
+      }),
+    ],
+  },
+  {
+    itemId: 192,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "ep",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51rZ07iLFRL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2018,
+    musicTitle: "Once",
+    musicArtist: ["Peggy Gou"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic", "house"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/SlbVgjFvE3I?list=OLAK5uy_kgbXh2X3g0KVQU6dq71KTRxk6tYbHBoFs",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6iPrb23tXiLrKCCmiAqVTA?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/once-ep/1336528225",
+      }),
+    ],
+  },
+  {
+    itemId: 193,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/512wSzCP3vL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2018,
+    musicTitle: "Ringos Desert",
+    musicArtist: ["Zhu"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/lLZfsFZ5EO0?list=OLAK5uy_nHDtO5waXbgS1Mv8MnhqRq9zfT0gqHPb8",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/1Cw2ULAWbEnGz9301uL9BL?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/ringos-desert/1424589135",
+      }),
+    ],
+  },
+  {
+    itemId: 194,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51cSCtaQ0uL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2009,
+    musicTitle: "Grains",
+    musicArtist: ["Boozoo Bajou"],
+    recordingContext: ["studio"],
+    musicTags: ["downtempo"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/TsfblKBlWbw?list=OLAK5uy_mZBkDfowIXh8IODclIIcrv3c2MWGzdUes",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/4m0XnbCJatpORde9v7fFTw?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/grains/1672200950",
+      }),
+    ],
+  },
+  {
+    itemId: 195,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/41-Me0uOBuL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2021,
+    musicTitle: "Eternamente",
+    musicArtist: ["Hermanos Gutiérrez"],
+    recordingContext: ["studio"],
+    musicTags: ["instrumental"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/DrIQLiB3HPI?list=OLAK5uy_mmyb_jm9OxqI0kVo6-IMCxFCtmvbK-Jbs",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6CuRHkBvxuLJuRjwW6ynCo?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/eternamente/1663009377",
+      }),
+    ],
+  },
+  {
+    itemId: 196,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51l7DisPyKL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2012,
+    musicTitle: "Cruel Summer",
+    musicArtist: ["Kanye West", "G.O.O.D. Music"],
+    recordingContext: ["studio"],
+    musicTags: ["hip-hop", "rap"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/nAO5UJi1QEo?list=OLAK5uy_mMXbbUqJQ3CB9JHCGVRaZNOFlu5fpvnmo",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6ijvs54NaN3QNdXFVFtVOM?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/kanye-west-presents-good-music-cruel-summer/1440829853",
+      }),
+    ],
+  },
+  {
+    itemId: 197,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/3143O6iBhkL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2004,
+    musicTitle: "Crying over Pros for No Reason",
+    musicArtist: ["edIT"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/y0Eqt9GrQSc?list=OLAK5uy_nA2PQaaadxM3_h67CpTuEYXIKhT8P1IGI",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/70BeA9H0wEUixrUgDxYJxi?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/bj/album/crying-over-pros-for-no-reason/687484254",
+      }),
+    ],
+  },
+  {
+    itemId: 198,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51EWNIvl3fL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2010,
+    musicTitle: "Drink the Sea",
+    musicArtist: ["The Glitch Mob"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/cefY0sXQo0U?list=OLAK5uy_noncWAPC1UmvfucH2GXX4s4es550y_14E",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/4c5fhgLoAaFzwjNTxC57jK?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/drink-the-sea/367738582",
+      }),
+    ],
+  },
+  {
+    itemId: 199,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/512jPDJBe4L._UX500_FMwebp_QL85_.jpg",
+    musicYear: 1998,
+    musicTitle: "Hello Nasty",
+    musicArtist: ["Beastie Boys"],
+    recordingContext: ["studio"],
+    musicTags: ["hip-hop", "rap"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/LdqzOldqRxo?list=OLAK5uy_kIusAHmMfMXhUjSdFt9VorrjTFVdTQPCg",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6eGYLONkDMja0MNtZWnRRB?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/hello-nasty-deluxe-version-remastered/721224205",
+      }),
+    ],
+  },
+  {
+    itemId: 200,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/61yeefqUMiL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 1975,
+    musicTitle: "Blues for Allah",
+    musicArtist: ["Grateful Dead"],
+    recordingContext: ["studio"],
+    musicTags: ["rock", "funk"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/crHvWsFVeD4?list=OLAK5uy_khc3g5i8poxKSR1IMY0epABITYMVgh_rg&si=ZvLNOFsuUGbgKArY",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/5BwjVdVJ4aOmbIYomznfCv?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/blues-for-allah/663665016",
+      }),
+    ],
+  },
+  {
+    itemId: 201,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/510bdUYinyL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2006,
+    musicTitle: "The Last Resort",
+    musicArtist: ["Trentemøller"],
+    recordingContext: ["studio"],
+    musicTags: ["downtempo", "electronic"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/6R3Kp0dGyvI?list=OLAK5uy_lSYHOMNOrw6qiTaM6909zMAoFHoujbFlQ",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/77yan5ZgQeCzOUNWX8qwsu?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/the-last-resort/535520678",
+      }),
+    ],
+  },
+  {
+    itemId: 202,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/61OHC53B-NL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2002,
+    musicTitle: "Deadringer",
+    musicArtist: ["RJD2"],
+    recordingContext: ["studio"],
+    musicTags: ["hip-hop"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/McQNT2bfSbM?list=OLAK5uy_nDkvvTednUO4hXATqOKQ9ndKAX0XgNQKg",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/49TmgJeTn6kVr65GCwPp0q?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/deadringer/335220471",
+      }),
+    ],
+  },
+  {
+    itemId: 203,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/61OHC53B-NL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2002,
+    musicTitle: "Deadringer",
+    musicArtist: ["RJD2"],
+    recordingContext: ["studio"],
+    musicTags: ["hip-hop"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/McQNT2bfSbM?list=OLAK5uy_nDkvvTednUO4hXATqOKQ9ndKAX0XgNQKg",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/49TmgJeTn6kVr65GCwPp0q?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/deadringer/335220471",
       }),
     ],
   },
