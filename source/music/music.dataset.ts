@@ -7,7 +7,7 @@ import {
   getYoutubeLinkData,
 } from "./getMusicLinkData.ts";
 
-export default [
+export const musicDataset: SegmentDataset<MusicItem> = [
   {
     itemId: 0,
     musicType: "source",
@@ -5227,30 +5227,208 @@ export default [
       }),
     ],
   },
+  {
+    itemId: 203,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51b7Wdxse2L._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2016,
+    musicTitle: "The Odd Tape",
+    musicArtist: ["Oddisee"],
+    recordingContext: ["studio"],
+    musicTags: ["hip-hop"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/McQNT2bfSbM?list=OLAK5uy_nDkvvTednUO4hXATqOKQ9ndKAX0XgNQKg",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/2JHe5hyBf0wWDfb1T0iwyg?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/the-odd-tape/1091753195",
+      }),
+    ],
+  },
+  {
+    itemId: 204,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/61Eg6CD3A+L._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2021,
+    musicTitle: "Dab Records, Vol. 1",
+    musicArtist: ["Emancipator", "Asher Fulero"],
+    recordingContext: ["studio"],
+    musicTags: ["hip-hop"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/kGw4iziW8VU?list=OLAK5uy_m3COw-akV_jB9IrWR3JUuSBz_8QqpoGmc",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/0OQTjLHMgLDGjtESnmEycV?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/dab-records-vol-1/1659512625",
+      }),
+    ],
+  },
+  {
+    itemId: 205,
+    musicType: "source",
+    sourceType: "mix",
+    musicThumbnailHref:
+      "https://beatsperminute.com/wp-content/uploads/2011/03/GangGangDance.jpg",
+    musicYear: 2011,
+    musicTitle: "4AD Session",
+    musicArtist: ["Gang Gang Dance"],
+    recordingContext: ["live", "studio"],
+    musicTags: ["experimental", "psychedelic", "rock"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref: "https://youtu.be/A_A6A4hrKIc?si=e6yIN3MCuFl3Cpbc",
+      }),
+    ],
+  },
+  {
+    itemId: 206,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/41t8vu4G2hL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2012,
+    musicTitle: "Valtari",
+    musicArtist: ["Sigur Rós"],
+    recordingContext: ["studio"],
+    musicTags: ["ambient", "rock"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/5UA3EG_C27c?list=OLAK5uy_lOqDPMbqe5eA_O6Nj0iOROPoYD30o4mZI",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6VNojrhJBdLkfA1vzwqyNr?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/valtari/1447494480",
+      }),
+    ],
+  },
+  {
+    itemId: 207,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/31zxrsQQjDL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2016,
+    musicTitle: "The Madness of Many",
+    musicArtist: ["Animals as Leaders"],
+    recordingContext: ["studio"],
+    musicTags: ["jazz", "metal"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/qntP7XDocI0?list=OLAK5uy_nCd9_oCxo3dUcLiLproR9ZhzhDNgeskv4",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/78uAyM6uMgY1hhPnf9LGmD?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/the-madness-of-many/1647234627",
+      }),
+    ],
+  },
+  {
+    itemId: 208,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/61mRBe7YpPL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2012,
+    musicTitle: "En Vivo!",
+    musicArtist: ["Iron Maiden"],
+    recordingContext: ["concert"],
+    musicTags: ["metal"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/NPcSivtWcZM?list=OLAK5uy_my886OKDFJBajHk52SuB3g4pArICLrn9k",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/1iPFLsjqez49QPCX9hPmIl?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/en-vivo-live-at-estadio-nacional-santiago/1142266413",
+      }),
+    ],
+  },
+  {
+    itemId: 209,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51VlJc8iFdL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2012,
+    musicTitle: "No Mans Land",
+    musicArtist: ["Tommy Guerrero"],
+    recordingContext: ["studio"],
+    musicTags: ["psychedelic", "hip-hop", "rock"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/WJnN3Ny9nD4?list=OLAK5uy_lH28E19W3gp3saweOSQ087s9Sgxg1QDrM",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6mv6jWzf1Z3NsOEAHrh2ze?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/no-mans-land-deluxe-version/895162603",
+      }),
+    ],
+  },
   // {
-  //   itemId: 203,
+  //   itemId: 210,
   //   musicType: "source",
   //   sourceType: "collection",
   //   collectionType: "album",
   //   musicThumbnailHref:
-  //     "https://m.media-amazon.com/images/I/61OHC53B-NL._UX500_FMwebp_QL85_.jpg",
-  //   musicYear: 2002,
-  //   musicTitle: "Deadringer",
-  //   musicArtist: ["RJD2"],
+  //     "https://m.media-amazon.com/images/I/51VlJc8iFdL._UX500_FMwebp_QL85_.jpg",
+  //   musicYear: 2012,
+  //   musicTitle: "No Mans Land",
+  //   musicArtist: ["Tommy Guerrero"],
   //   recordingContext: ["studio"],
-  //   musicTags: ["hip-hop"],
+  //   musicTags: ["psychedelic", "hip-hop", "rock"],
   //   externalLinks: [
   //     getYoutubeLinkData({
   //       youtubeHref:
-  //         "https://youtu.be/McQNT2bfSbM?list=OLAK5uy_nDkvvTednUO4hXATqOKQ9ndKAX0XgNQKg",
+  //         "https://youtu.be/WJnN3Ny9nD4?list=OLAK5uy_lH28E19W3gp3saweOSQ087s9Sgxg1QDrM",
   //     }),
   //     getSpotifyLinkData({
   //       spotifyHref:
-  //         "https://open.spotify.com/album/49TmgJeTn6kVr65GCwPp0q?autoplay=true",
+  //         "https://open.spotify.com/album/6mv6jWzf1Z3NsOEAHrh2ze?autoplay=true",
   //     }),
   //     getAppleLinkData({
-  //       appleHref: "https://music.apple.com/us/album/deadringer/335220471",
+  //       appleHref:
+  //         "https://music.apple.com/us/album/no-mans-land-deluxe-version/895162603",
   //     }),
   //   ],
   // },
-] satisfies SegmentDataset<MusicItem>;
+];

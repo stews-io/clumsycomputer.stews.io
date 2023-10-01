@@ -5,8 +5,8 @@ import {
   getTwitterIconSvg,
   getEmailIconSvg,
 } from "stew/config/helpers";
-import musicDataset from "./music/music.dataset.ts";
-import spotsDataset from "./spots/spots.dataset.ts";
+import { musicDataset } from "./music/music.dataset.ts";
+import { spotsDataset } from "./spots/spots.dataset.ts";
 
 export default getStewConfig();
 

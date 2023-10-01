@@ -2,7 +2,7 @@ import { SegmentDataset } from "stew/config";
 import { getGoogleLinkData, getWebsiteLinkData } from "./getSpotLinkData.ts";
 import { SpotItem } from "./SpotItem.ts";
 
-export default [
+export const spotsDataset: SegmentDataset<SpotItem> = [
   {
     itemId: 0,
     spotName: "bean cycle roasters",
@@ -2386,4 +2386,4 @@ export default [
       }),
     ],
   },
-] satisfies SegmentDataset<SpotItem>;
+];
