@@ -2,7 +2,7 @@ import { SegmentDataset } from "stew/config";
 import { getGoogleLinkData, getWebsiteLinkData } from "./getSpotLinkData.ts";
 import { SpotItem } from "./SpotItem.ts";
 
-export default [
+export const spotsDataset: SegmentDataset<SpotItem> = [
   {
     itemId: 0,
     spotName: "bean cycle roasters",
@@ -2386,4 +2386,113 @@ export default [
       }),
     ],
   },
-] satisfies SegmentDataset<SpotItem>;
+  {
+    itemId: 162,
+    spotName: "little on mountain",
+    spotThumbnailHref:
+      "https://images.squarespace-cdn.com/content/v1/5eb04f85b7949a315a3ef0fe/1588613644143-ZR6TI4QJPHXU8TYN07RU/Screen%2BShot%2B2020-05-04%2Bat%2B10.45.02%2BAM.jpg",
+    spotLocation: ["fort collins", "colorado"],
+    spotTags: ["restaurant"],
+    spotLinks: [
+      getWebsiteLinkData({
+        websiteHref: "https://www.littleonmountain.com",
+      }),
+      getGoogleLinkData({
+        googleSearchQuery: "little on mountain fort collins",
+      }),
+    ],
+  },
+  {
+    itemId: 163,
+    spotName: "salt road brewing",
+    spotThumbnailHref:
+      "https://www.coloradobrewerylist.com/wp-content/uploads/2018/08/SaltRoad.png",
+    spotLocation: ["old town", "fort collins", "colorado"],
+    spotTags: ["brewery"],
+    spotLinks: [
+      getWebsiteLinkData({
+        websiteHref: "https://saltroadbrewing.com",
+      }),
+      getGoogleLinkData({
+        googleSearchQuery: "salt road brewing",
+      }),
+    ],
+  },
+  {
+    itemId: 164,
+    spotName: "the still whiskey steaks",
+    spotThumbnailHref:
+      "https://static.spotapps.co/website_images/ab_websites/71713_website/logo.png",
+    spotLocation: ["old town", "fort collins", "colorado"],
+    spotTags: ["restaurant"],
+    spotLinks: [
+      getWebsiteLinkData({
+        websiteHref: "https://thestillwhiskeysteaks.com",
+      }),
+      getGoogleLinkData({
+        googleSearchQuery: "the still whiskey steaks fort collins",
+      }),
+    ],
+  },
+  {
+    itemId: 165,
+    spotName: "the mayor of old town",
+    spotThumbnailHref:
+      "https://themayorofoldtown.com/wp-content/uploads/mayor-circle-icon-with-white-stroke.png",
+    spotLocation: ["fort collins", "colorado"],
+    spotTags: ["bar", "restaurant"],
+    spotLinks: [
+      getWebsiteLinkData({
+        websiteHref: "https://themayorofoldtown.com",
+      }),
+      getGoogleLinkData({
+        googleSearchQuery: "the mayor of old town fort collins",
+      }),
+    ],
+  },
+  {
+    itemId: 166,
+    spotName: "slyce pizza co.",
+    spotThumbnailHref:
+      "https://slycepizzaco.com/wp-content/uploads/2021/04/logo-resize-25.png",
+    spotLocation: ["old town", "fort collins", "colorado"],
+    spotTags: ["restaurant"],
+    spotLinks: [
+      getWebsiteLinkData({
+        websiteHref: "https://slycepizzaco.com",
+      }),
+      getGoogleLinkData({
+        googleSearchQuery: "slyce pizza fort collins",
+      }),
+    ],
+  },
+  {
+    itemId: 167,
+    spotName: "the bread chic",
+    spotThumbnailHref:
+      "https://5adc54b450eb27121206.cdn6.editmysite.com/uploads/b/5adc54b450eb271212066b2a56e0ed90505f5e8b902ba83c09deb8cc60817336/BCLogo_1614099916.png?width=400&optimize=medium",
+    spotLocation: ["old town", "fort collins", "colorado"],
+    spotTags: ["bakery"],
+    spotLinks: [
+      getWebsiteLinkData({
+        websiteHref: "https://www.thebreadchic.com",
+      }),
+      getGoogleLinkData({
+        googleSearchQuery: "the bread chic fort collins",
+      }),
+    ],
+  },
+  {
+    itemId: 168,
+    spotName: "carmelo's tacos",
+    spotThumbnailHref:
+      "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/e8oxnpcodefyhhl9gsgw",
+    spotLocation: ["capitol hill", "seattle", "washington"],
+    spotTags: ["restaurant"],
+    spotLinks: [
+      getGoogleLinkData({
+        googleSearchQuery: "carmelo's tacos seattle",
+      }),
+    ],
+  },
+];
