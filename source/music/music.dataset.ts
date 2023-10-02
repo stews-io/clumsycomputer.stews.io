@@ -4816,27 +4816,6 @@ export const musicDataset: SegmentDataset<MusicItem> = [
     ],
   },
   {
-    itemId: 187,
-    musicType: "source",
-    sourceType: "mix",
-    musicThumbnailHref: "https://f4.bcbits.com/img/a3975204577_16.jpg",
-    musicYear: 2022,
-    musicTitle: "Live on KEXP",
-    musicArtist: ["King Gizzard & the Lizard Wizard"],
-    recordingContext: ["studio", "live"],
-    musicTags: ["experimental", "rock", "jazz"],
-    externalLinks: [
-      getYoutubeLinkData({
-        youtubeHref: "https://youtu.be/Jb8UMmrBlC8",
-      }),
-      {
-        linkLabel: "bandcamp",
-        linkHref:
-          "https://kinggizzardthelizardwizard.bandcamp.com/album/live-on-kexp-22",
-      },
-    ],
-  },
-  {
     itemId: 188,
     musicType: "source",
     sourceType: "mix",
