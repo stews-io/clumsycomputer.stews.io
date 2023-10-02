@@ -5588,4 +5588,210 @@ export const musicDataset: SegmentDataset<MusicItem> = [
       }),
     ],
   },
+  {
+    itemId: 217,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51OeiB7xz8L._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2018,
+    musicTitle: "Lost & Found",
+    musicArtist: ["Jorja Smith"],
+    recordingContext: ["studio"],
+    musicTags: ["r&b", "soul"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/9xZ6P4Sinvw?list=OLAK5uy_mSOtHJ88FrNt2P-Ar-R-LL2OXA9VQZUd0",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/3y4JiV8jEq11DBjW4vJhwG?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/lost-found/1373567754",
+      }),
+    ],
+  },
+  {
+    itemId: 218,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51fZ-jq6evL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2005,
+    musicTitle: "Live at Stubb's",
+    musicArtist: ["Matisyahu"],
+    recordingContext: ["concert"],
+    musicTags: ["soul", "reggae", "rap"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/7uyjRNLckAQ?list=OLAK5uy_mavvjw0pNuMFzsHFUYBGCHZy4duXdF_n4",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/6kfMhZYXTwm9HGMJuLl7HO?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/live-at-stubbs/323094344",
+      }),
+    ],
+  },
+  {
+    itemId: 219,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "ep",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51AfbIcVybL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2011,
+    musicTitle: "Funk Blaster",
+    musicArtist: ["Koan Sound"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic", "bass", "funk"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/mpokVJjCRfo?list=OLAK5uy_nrPE8QPS5z6rWcCNCwAoEfJdsHc-0higc",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/0RWKUyBJEMABWtIqpqK5zQ?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/funk-blaster-ep/997601085",
+      }),
+    ],
+  },
+  // {
+  //   itemId: 220,
+  //   musicType: "source",
+  //   sourceType: "collection",
+  //   collectionType: "album",
+  //   musicThumbnailHref:
+  //     "https://m.media-amazon.com/images/I/61t9cFtrnaL._UX500_FMwebp_QL85_.jpg",
+  //   musicYear: 2010,
+  //   musicTitle: "Slurp and Giggle",
+  //   musicArtist: ["Opiuo"],
+  //   recordingContext: ["studio"],
+  //   musicTags: ["electronic", "bass", "funk"],
+  //   externalLinks: [
+  //     getYoutubeLinkData({
+  //       youtubeHref:
+  //         "https://youtu.be/0ncA0GsDq-o?list=OLAK5uy_mxCDtmuPkKmpkgnZ4H9ZSpBCpi_CWyuHA",
+  //     }),
+  //     getSpotifyLinkData({
+  //       spotifyHref:
+  //         "https://open.spotify.com/album/6TnnuYLInRqSCzubb9b9DP?autoplay=true",
+  //     }),
+  //     getAppleLinkData({
+  //       appleHref:
+  //         "https://music.apple.com/us/album/slurp-and-giggle/1195487229",
+  //     }),
+  //   ],
+  // },
+  {
+    itemId: 221,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51B8wz6PkdL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2009,
+    musicTitle: "Zoomorphic",
+    musicArtist: ["Spoonbill"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic", "bass", "funk"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/P0Nv4AxuVIo?list=OLAK5uy_nz4Oqga9QizVCJRLeDj98C6V6qZL4ARAQ",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/5DZ9swJIpunkFn9jLqQ3bt?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/zoomorphic/309337753",
+      }),
+    ],
+  },
+  {
+    itemId: 222,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "ep",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51fTmLuMpQL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2022,
+    musicTitle: "Live at Electric Lady",
+    musicArtist: ["Remi Wolf"],
+    recordingContext: ["live", "studio"],
+    musicTags: ["soul"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/xuRgBVh19j0?list=PLW5HA_qZXS8qnuogTC0tVQKaxLD_ydSqw",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/3tBiTR7oz4wOiLqlaWiId8?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref:
+          "https://music.apple.com/us/album/live-at-electric-lady-ep/1663962368",
+      }),
+    ],
+  },
+  {
+    itemId: 223,
+    musicType: "source",
+    sourceType: "mix",
+    musicThumbnailHref:
+      "https://stupiddope.com/wp-content/uploads/2023/07/Juvenile-Shines-in-Epic-Tiny-Desk-Concert-A-Blast-from-the-Past.png",
+    musicYear: 2023,
+    musicTitle: "Juvenile: Tiny Desk",
+    musicArtist: ["Juvenile"],
+    recordingContext: ["concert"],
+    musicTags: ["hip-hop", "rap"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref: "https://youtu.be/kes2P4IC2bQ",
+      }),
+      {
+        linkLabel: "soundcloud",
+        linkHref:
+          "https://soundcloud.com/kev-bra/onlymp3-to-juvenile-tiny-desk",
+      },
+    ],
+  },
+  {
+    itemId: 224,
+    musicType: "source",
+    sourceType: "collection",
+    collectionType: "album",
+    musicThumbnailHref:
+      "https://m.media-amazon.com/images/I/51khp7kHIvL._UX500_FMwebp_QL85_.jpg",
+    musicYear: 2023,
+    musicTitle: "Cardan",
+    musicArtist: ["Agar Agar"],
+    recordingContext: ["studio"],
+    musicTags: ["electronic", "pop"],
+    externalLinks: [
+      getYoutubeLinkData({
+        youtubeHref:
+          "https://youtu.be/K9VCxDwCwr4?list=OLAK5uy_nN8yzFhvK9iwEPePziMYdnrByrWhwJVlk",
+      }),
+      getSpotifyLinkData({
+        spotifyHref:
+          "https://open.spotify.com/album/4ngCa16FS5to1pnRxucSu0?autoplay=true",
+      }),
+      getAppleLinkData({
+        appleHref: "https://music.apple.com/us/album/cardan/1531878446",
+      }),
+    ],
+  },
 ];
