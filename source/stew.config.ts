@@ -277,7 +277,7 @@ function getStewConfig(): SourceStewConfig {
         segmentDataset: linksDataset,
         segmentKey: "links",
         segmentLabel: "links",
-        segmentModulePath: "./links/links.dataset.ts",
+        segmentModulePath: "./links/links.module.tsx",
         segmentViews: [
           {
             viewKey: "all",
