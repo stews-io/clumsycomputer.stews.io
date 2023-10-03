@@ -7,6 +7,7 @@ import {
 } from "stew/config/helpers";
 import { musicDataset } from "./music/music.dataset.ts";
 import { spotsDataset } from "./spots/spots.dataset.ts";
+import { linksDataset } from "./links/links.dataset.ts";
 
 export default getStewConfig();
 
@@ -42,7 +43,7 @@ function getStewConfig(): SourceStewConfig {
     stewSegments: [
       {
         segmentDataset: musicDataset,
-        segmentModulePath: "./music/music.module.tsx",
+        segmentModulePath: "./music/music.module.ts",
         segmentKey: "music",
         segmentLabel: "music",
         segmentViews: [
@@ -191,7 +192,7 @@ function getStewConfig(): SourceStewConfig {
       },
       {
         segmentDataset: spotsDataset,
-        segmentModulePath: "./spots/spots.module.tsx",
+        segmentModulePath: "./spots/spots.module.ts",
         segmentKey: "spots",
         segmentLabel: "spots",
         segmentViews: [
@@ -268,6 +269,21 @@ function getStewConfig(): SourceStewConfig {
                 return viewItemIdsResult;
               },
               []
+            ),
+          },
+        ],
+      },
+      {
+        segmentDataset: linksDataset,
+        segmentKey: "links",
+        segmentLabel: "links",
+        segmentModulePath: "./links/links.dataset.ts",
+        segmentViews: [
+          {
+            viewKey: "all",
+            viewLabel: "all",
+            viewItemIds: linksDataset.map(
+              (someLinkItem) => someLinkItem.itemId
             ),
           },
         ],
