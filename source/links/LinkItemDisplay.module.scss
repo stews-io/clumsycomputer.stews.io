@@ -1,0 +1,111 @@
+$themeSpacer: 8px;
+$themeTextBackgroundColor: #eeeeee;
+$themeButtonTextColor: #5e35b1;
+
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.flexChild {
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.itemContainer {
+  @extend .flexContainer;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowContainer {
+  @extend .flexContainer;
+  flex-direction: row;
+}
+
+.columnContainer {
+  @extend .flexContainer;
+  flex-direction: column;
+}
+
+.textEllipsis {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+///
+.itemDisplayContainer {
+  @extend .columnContainer;
+  max-width: min-content;
+  min-width: calc(2 / 3) * 100%;
+  padding-block-start: calc(11 / 4) * $themeSpacer;
+
+  &:nth-child(2) {
+    padding-block-start: $themeSpacer;
+  }
+}
+
+.itemInfoContainer {
+  @extend .columnContainer;
+}
+
+.itemLabelListContainer {
+  @extend .rowContainer;
+}
+
+.itemLabelList {
+  @extend .rowContainer;
+  flex-wrap: wrap;
+  width: 0;
+  flex-grow: 1;
+}
+
+.itemLabel {
+  @extend .textEllipsis;
+  margin-inline-end: $themeSpacer;
+  margin-block-start: $themeSpacer;
+  background-color: $themeTextBackgroundColor;
+  border-radius: 3px;
+  padding-inline: calc(1 / 2) * $themeSpacer;
+  padding-block-start: calc(1 / 8) * $themeSpacer + 1px;
+  padding-block-end: calc(1 / 8) * $themeSpacer;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.linkButtonContainer {
+  @extend .itemContainer;
+  margin-inline-end: $themeSpacer;
+  margin-block-start: $themeSpacer;
+}
+
+.itemLinkLabel {
+  @extend .textEllipsis;
+  background-color: $themeTextBackgroundColor;
+  border-radius: 3px;
+  padding-inline: calc(1 / 2) * $themeSpacer;
+  padding-block-start: calc(1 / 8) * $themeSpacer + 1px;
+  padding-block-end: calc(1 / 8) * $themeSpacer;
+  font-weight: 700;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.titleButtonContainer {
+  @extend .rowContainer;
+}
+
+.titleText {
+  padding-inline: calc(1 / 2) * $themeSpacer;
+  padding-block-start: calc(1 / 8) * $themeSpacer + 1px;
+  padding-block-end: calc(1 / 8) * $themeSpacer;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: underline;
+  color: $themeButtonTextColor;
+}
