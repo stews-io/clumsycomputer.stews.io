@@ -222,7 +222,7 @@ export const linksDataset: SegmentDataset<LinkItem> = [
     linkTitle:
       "What are effective and secure ways of shuffling a deck of cards in a contract?",
     linkHref: "https://ethereum.stackexchange.com/questions/376",
-    linkAuthor: ["J-B", "Tjaden Hess", "Others"],
+    linkAuthor: ["eth", "Tjaden Hess", "Others"],
     linkTags: ["computation"],
     secondaryLinks: [
       {
@@ -295,7 +295,7 @@ export const linksDataset: SegmentDataset<LinkItem> = [
   },
   {
     itemId: 19,
-    linkTitle: " Eggs Curves and Ovals",
+    linkTitle: "Eggs Curves and Ovals",
     linkHref: "https://www.mathematische-basteleien.de/eggcurves.htm",
     linkAuthor: ["Jürgen Köller"],
     linkTags: ["math"],
@@ -568,3 +568,6 @@ export const linksDataset: SegmentDataset<LinkItem> = [
 // Run unsafe user generated JavaScript in the browser
 // https://workerbox.net
 // https://news.ycombinator.com/item?id=33673047
+
+// Coloring for Colorblindness
+// https://davidmathlogic.com/colorblind/
