@@ -626,44 +626,174 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 40,
+    linkTitle: "What chords do you need?",
+    linkHref: "https://www.jefftk.com/p/what-chords-do-you-need",
+    linkAuthor: ["Jeff Kaufman"],
+    linkTags: ["music"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230707064929/https://www.jefftk.com/p/what-chords-do-you-need",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31109456",
+      },
+    ],
+  },
+  {
+    itemId: 41,
+    linkTitle: "Math Augmentation",
+    linkHref: "https://andrewhead.info/assets/pdf/augmented-formulas.pdf",
+    linkAuthor: ["Andrew Head"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230323013919/https://andrewhead.info/assets/pdf/augmented-formulas.pdf",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31208556",
+      },
+    ],
+  },
+  {
+    itemId: 42,
+    linkTitle:
+      "How I draw figures for my mathematical lecture notes using Inkscape",
+    linkHref: "https://castel.dev/post/lecture-notes-2/",
+    linkAuthor: ["Gilles Castel"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230919164915/https://castel.dev/post/lecture-notes-2/",
+      },
+    ],
+  },
+  {
+    itemId: 43,
+    linkTitle: "Color Orbs",
+    linkHref: "https://www.dannyking.uk/artwork/colororbs",
+    linkAuthor: ["Danny King"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31242010",
+      },
+    ],
+  },
+  {
+    itemId: 44,
+    linkTitle:
+      "Instant Neural Graphics Primitives with a Multiresolution Hash Encoding",
+    linkHref: "https://nvlabs.github.io/instant-ngp/",
+    linkAuthor: [
+      "Thomas Müller",
+      "Alex Evans",
+      "Christoph Schied",
+      "Alexander Keller",
+    ],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=29959700",
+      },
+    ],
+  },
+  {
+    itemId: 45,
+    linkTitle: "Polygon Packing",
+    linkHref: "https://larswander.com/art/polygon-packing/",
+    linkAuthor: ["Lars Wander"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20220521161825/https://larswander.com/art/polygon-packing/",
+      },
+    ],
+  },
+  {
+    itemId: 46,
+    linkTitle:
+      "A new algorithm for dense ellipse packing and polygonal structures generation in context of FEM or DEM",
+    linkHref:
+      "https://chaire-digimu.cemef.mines-paristech.fr/wp-content/uploads/2016/11/Ilin_matecconf_numi2016_02004.pdf",
+    linkAuthor: ["Dmitrii N. Ilin", "Marc Bernacki"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231005221038/https://chaire-digimu.cemef.mines-paristech.fr/wp-content/uploads/2016/11/Ilin_matecconf_numi2016_02004.pdf",
+      },
+    ],
+  },
+  {
+    itemId: 47,
+    linkTitle: "Off-Grid Cyberdeck with RPI and Pelican Case",
+    linkHref: "https://www.doscher.com/work-recovery-kit/",
+    linkAuthor: ["Jay Doscher"],
+    linkTags: ["diy"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230829063620/https://www.doscher.com/work-recovery-kit/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31402558",
+      },
+    ],
+  },
+  {
+    itemId: 48,
+    linkTitle: "Custom made synth, audio, and retro-gaming gear",
+    linkHref: "https://www.lovehulten.com",
+    linkAuthor: ["Love Hultén"],
+    linkTags: ["personal"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231004004023/https://www.lovehulten.com/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31403504",
+      },
+    ],
+  },
+  {
+    itemId: 49,
+    linkTitle: "SolveSpace - Parametric 2D/3D CAD",
+    linkHref: "https://solvespace.com/index.pl",
+    linkAuthor: ["Jonathan Westhues", "whitequark", "Paul Kahler"],
+    linkTags: ["software"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230930101557/https://solvespace.com/index.pl",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31468017",
+      },
+    ],
+  },
 ];
-
-// What chords do you need?
-// https://www.jefftk.com/p/what-chords-do-you-need
-// https://news.ycombinator.com/item?id=31109456
-
-// Math Augmentation
-// https://andrewhead.info/assets/pdf/augmented-formulas.pdf
-// https://news.ycombinator.com/item?id=31208556
-
-// How I draw figures for my mathematical lecture notes using Inkscape
-// https://castel.dev/post/lecture-notes-2/
-
-// Color Orbs
-// https://www.dannyking.uk/artwork/colororbs
-// https://news.ycombinator.com/item?id=31242010
-
-// Instant Neural Graphics Primitives with a Multiresolution Hash Encoding
-// https://news.ycombinator.com/item?id=29959700
-// https://nvlabs.github.io/instant-ngp/
-
-// Polygon Packing
-// https://larswander.com/art/polygon-packing/
-
-// A new algorithm for dense ellipse packing and polygonal structures generation in context of FEM or DEM
-// https://chaire-digimu.cemef.mines-paristech.fr/wp-content/uploads/2016/11/Ilin_matecconf_numi2016_02004.pdf
-
-// Off-Grid Cyberdeck with RPI and Pelican Case
-// https://www.doscher.com/work-recovery-kit/
-// https://news.ycombinator.com/item?id=31402558
-
-// Custom made synth, audio, and retro-gaming gear
-// https://www.lovehulten.com
-// https://news.ycombinator.com/item?id=31403504
-
-// SolveSpace - Parametric 2D/3D CAD
-// https://solvespace.com/index.pl
-// https://news.ycombinator.com/item?id=31468017
 
 // Billy Wilcosky
 // wilcosky.com
