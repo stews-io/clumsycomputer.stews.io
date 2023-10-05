@@ -307,37 +307,167 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 20,
+    linkTitle: "Julien Verneuil",
+    linkHref: "https://www.onirom.fr",
+    linkAuthor: ["Julien Verneuil"],
+    linkTags: ["personal"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 21,
+    linkTitle: "Pen Plotter Art & Algorithms, Part 1",
+    linkHref: "https://mattdesl.svbtle.com/pen-plotter-1",
+    linkAuthor: ["Matt Deslauriers"],
+    linkTags: ["art"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230609042623/https://mattdesl.svbtle.com/pen-plotter-1",
+      },
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=28354641",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=16043159",
+      },
+    ],
+  },
+  {
+    itemId: 22,
+    linkTitle: "Visually stunning math concepts which are easy to explain",
+    linkHref:
+      "https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain",
+    linkAuthor: ["Others"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230711042023/https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=28489582",
+      },
+    ],
+  },
+  {
+    itemId: 23,
+    linkTitle: "Okhsv and Okhsl: Two new color spaces for color picking",
+    linkHref: "https://bottosson.github.io/posts/colorpicker/",
+    linkAuthor: ["Björn Ottosson"],
+    linkTags: ["color"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231001054745/https://bottosson.github.io/posts/colorpicker/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=28500014",
+      },
+    ],
+  },
+  {
+    itemId: 24,
+    linkTitle: "Why your website should use dithered images",
+    linkHref: "https://endtimes.dev/why-you-should-dither-images/",
+    linkAuthor: ["Nathaniel"],
+    linkTags: ["image-encoding"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230605183701/https://endtimes.dev/why-you-should-dither-images/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=28696014",
+      },
+    ],
+  },
+  {
+    itemId: 25,
+    linkTitle: "SSH Tunneling Explained",
+    linkHref: "https://goteleport.com/blog/ssh-tunneling-explained/",
+    linkAuthor: ["Sakshyam Shah"],
+    linkTags: ["networking"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231002223911/https://goteleport.com/blog/ssh-tunneling-explained/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=28802493",
+      },
+    ],
+  },
+  {
+    itemId: 26,
+    linkTitle: "Inconvergent",
+    linkHref: "https://inconvergent.net/#writing",
+    linkAuthor: ["Anders Hoff"],
+    linkTags: ["blog"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 27,
+    linkTitle: "What is AT&T doing at 1111340002?",
+    linkHref:
+      "https://medium.com/telecom-expert/what-is-at-t-doing-at-1111340002-c418876c212c",
+    linkAuthor: ["David Allen Burgess "],
+    linkTags: ["networking"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230528040433/https://scribe.rip/telecom-expert/what-is-at-t-doing-at-1111340002-c418876c212c",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=29135559",
+      },
+    ],
+  },
+  {
+    itemId: 28,
+    linkTitle:
+      "Is there cryptographic material in a phone's SIM card that can be used with RSA encryption",
+    linkHref:
+      "https://security.stackexchange.com/questions/31041/is-there-cryptographic-material-in-a-phones-sim-card-that-can-be-used-with-rsa",
+    linkAuthor: ["makerofthings7", "Thomas Pornin", "others"],
+    linkTags: ["security"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20220502152132/https://security.stackexchange.com/questions/31041/is-there-cryptographic-material-in-a-phones-sim-card-that-can-be-used-with-rsa",
+      },
+    ],
+  },
+  {
+    itemId: 29,
+    linkTitle: "Trig without Tears",
+    linkHref: "https://brownmath.com/twt/index.htm",
+    linkAuthor: ["Stan Brown"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230727201155/https://brownmath.com/twt/index.htm",
+      },
+    ],
+  },
 ];
-
-// Julien Verneuil
-// https://www.onirom.fr
-
-// Pen Plotter Art & Algorithms, Part 1
-// https://mattdesl.svbtle.com/pen-plotter-1
-
-// Visually stunning math concepts which are easy to explain
-// https://math.stackexchange.com/questions/733754/visually-stunning-math-concepts-which-are-easy-to-explain
-
-// Okhsv and Okhsl: Two new color spaces for color picking
-// https://bottosson.github.io/posts/colorpicker/
-
-// Why your website should use dithered images
-// https://endtimes.dev/why-you-should-dither-images/
-
-// SSH Tunneling Explained
-// https://goteleport.com/blog/ssh-tunneling-explained/
-
-// inconvergent
-// https://inconvergent.net/#writing
-
-// What is AT&T doing at 1111340002?
-// https://web.archive.org/web/20230528040433/https://scribe.rip/telecom-expert/what-is-at-t-doing-at-1111340002-c418876c212c
-
-// Is there cryptographic material in a phone's SIM card that can be used with RSA encryption
-// https://security.stackexchange.com/questions/31041/is-there-cryptographic-material-in-a-phones-sim-card-that-can-be-used-with-rsa
-
-// Trig without Tears
-// https://brownmath.com/twt/index.htm
 
 // Paul Bourke
 // https://paulbourke.net
