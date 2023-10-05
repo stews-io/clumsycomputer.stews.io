@@ -467,39 +467,166 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 30,
+    linkTitle: "Paul Bourke",
+    linkHref: "https://paulbourke.net",
+    linkAuthor: ["Paul Bourke"],
+    linkTags: ["personal"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 31,
+    linkTitle: "inconvergent/weird",
+    linkHref: "https://github.com/inconvergent/weird",
+    linkAuthor: ["Anders Hoff"],
+    linkTags: ["repo"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=29536703",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=28868842",
+      },
+    ],
+  },
+  {
+    itemId: 32,
+    linkTitle: "Color Map Advice for Scientific Visualization",
+    linkHref: "https://www.kennethmoreland.com/color-advice/",
+    linkAuthor: ["Kenneth Moreland"],
+    linkTags: ["color"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230801074625/https://www.kennethmoreland.com/color-advice/",
+      },
+    ],
+  },
+  {
+    itemId: 33,
+    linkTitle: "Turbo, An Improved Rainbow Colormap for Visualization",
+    linkHref:
+      "https://blog.research.google/2019/08/turbo-improved-rainbow-colormap-for.html",
+    linkAuthor: ["Anton Mikhailov"],
+    linkTags: ["color"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230914214029/https://blog.research.google/2019/08/turbo-improved-rainbow-colormap-for.html",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=20754364",
+      },
+    ],
+  },
+  {
+    itemId: 34,
+    linkTitle: "Real Life",
+    linkHref: "https://reallifemag.com",
+    linkAuthor: ["Nathan Jurgenson", "Others"],
+    linkTags: ["technology"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 35,
+    linkTitle: "A Primer on Bezier Curves",
+    linkHref: "https://pomax.github.io/bezierinfo/",
+    linkAuthor: ["Pomax"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230919204439/https://pomax.github.io/bezierinfo/",
+      },
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=14191577",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=20751074",
+      },
+      {
+        linkLabel: "hnews (3)",
+        linkHref: "https://news.ycombinator.com/item?id=30100427",
+      },
+      {
+        linkLabel: "hnews (4)",
+        linkHref: "https://news.ycombinator.com/item?id=11402656",
+      },
+    ],
+  },
+  {
+    itemId: 36,
+    linkTitle: "How Does Perspective Work in Pictures?",
+    linkHref:
+      "https://aaronhertzmann.com/2022/02/28/how-does-perspective-work.html",
+    linkAuthor: ["Aaron Hertzmann"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230909023943/https://aaronhertzmann.com/2022/02/28/how-does-perspective-work.html",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=30527692",
+      },
+    ],
+  },
+  {
+    itemId: 37,
+    linkTitle: "Surma",
+    linkHref: "https://surma.dev",
+    linkAuthor: ["Surma"],
+    linkTags: ["blog"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 38,
+    linkTitle: "Elliptic Curve Cryptography: A Basic Introduction",
+    linkHref: "https://blog.boot.dev/cryptography/elliptic-curve-cryptography/",
+    linkAuthor: ["Lane Wagner"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230605235915/https://blog.boot.dev/cryptography/elliptic-curve-cryptography/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31040571",
+      },
+    ],
+  },
+  {
+    itemId: 39,
+    linkTitle: "Exponentially Better Rotations",
+    linkHref: "https://thenumbat.github.io/Exponential-Rotations/",
+    linkAuthor: ["Max Slater"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230309032143/https://thenumb.at/Exponential-Rotations/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31067525",
+      },
+    ],
+  },
 ];
-
-// Paul Bourke
-// https://paulbourke.net
-
-// inconvergent/weird
-// https://github.com/inconvergent/weird
-
-// Color Map Advice for Scientific Visualization
-// https://www.kennethmoreland.com/color-advice/
-
-// Turbo, An Improved Rainbow Colormap for Visualization
-// https://blog.research.google/2019/08/turbo-improved-rainbow-colormap-for.html?m=1
-
-// Real Life
-// reallifemag.com
-
-// A Primer on Bezier Curves
-// https://pomax.github.io/bezierinfo/
-
-// How Does Perspective Work in Pictures?
-// https://aaronhertzmann.com/2022/02/28/how-does-perspective-work.html
-
-// Surma
-// surma.dev
-
-// Elliptic Curve Cryptography: A Basic Introduction
-// https://blog.boot.dev/cryptography/elliptic-curve-cryptography/
-// https://news.ycombinator.com/item?id=31040571
-
-// Exponentially Better Rotations
-// https://thenumbat.github.io/Exponential-Rotations/
-// https://news.ycombinator.com/item?id=31067525
 
 // What chords do you need?
 // https://www.jefftk.com/p/what-chords-do-you-need
