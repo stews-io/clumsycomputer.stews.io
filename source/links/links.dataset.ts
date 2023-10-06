@@ -1128,48 +1128,193 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 70,
+    linkTitle: "I built a vector map from scratch",
+    linkHref: "https://ckochis.com/building-a-vector-map-from-scratch",
+    linkAuthor: ["Craig Kochis"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230702040048/https://ckochis.com/building-a-vector-map-from-scratch",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32510759",
+      },
+    ],
+  },
+  {
+    itemId: 71,
+    linkTitle:
+      "Why are D-sharp and E-flat considered to be two different notes?",
+    linkHref:
+      "https://www.ethanhein.com/wp/2022/why-are-d-sharp-and-e-flat-considered-to-be-two-different-notes/",
+    linkAuthor: ["Ethan Hein"],
+    linkTags: ["music"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230315013820/https://www.ethanhein.com/wp/2022/why-are-d-sharp-and-e-flat-considered-to-be-two-different-notes/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32626218",
+      },
+    ],
+  },
+  {
+    itemId: 72,
+    linkTitle: "Physically-Based Shading at Disney",
+    linkHref:
+      "https://static1.squarespace.com/static/58586fa5ebbd1a60e7d76d3e/t/593a3afa46c3c4a376d779f6/1496988449807/s2012_pbs_disney_brdf_notes_v2.pdf",
+    linkAuthor: ["Brent Burley"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://static1.squarespace.com/static/58586fa5ebbd1a60e7d76d3e/t/593a3afa46c3c4a376d779f6/1496988449807/s2012_pbs_disney_brdf_notes_v2.pdf",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32720893",
+      },
+    ],
+  },
+  {
+    itemId: 73,
+    linkTitle: "Parallel Curves of Cubic Béziers",
+    linkHref:
+      "https://raphlinus.github.io/curves/2022/09/09/parallel-beziers.html",
+    linkAuthor: ["Raph Levien"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230714091931/https://raphlinus.github.io/curves/2022/09/09/parallel-beziers.html",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32784491",
+      },
+    ],
+  },
+  {
+    itemId: 74,
+    linkTitle: "Exploring FPGA Graphics",
+    linkHref: "https://projectf.io/posts/fpga-graphics/",
+    linkAuthor: ["Will Flux"],
+    linkTags: ["graphics", "computation"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230829132854/https://projectf.io/posts/fpga-graphics/",
+      },
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=32807903",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=25998154",
+      },
+    ],
+  },
+  {
+    itemId: 75,
+    linkTitle: "ianthehenry/bauble.studio",
+    linkHref: "https://github.com/ianthehenry/bauble.studio",
+    linkAuthor: ["Ian Henry"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32809428",
+      },
+    ],
+  },
+  {
+    itemId: 76,
+    linkTitle: "An Algorithm for Polygon Intersections",
+    linkHref:
+      "https://www.gorillasun.de/blog/an-algorithm-for-polygon-intersections/",
+    linkAuthor: ["Ahmad Moussa"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230602084951/https://www.gorillasun.de/blog/an-algorithm-for-polygon-intersections/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33053320",
+      },
+    ],
+  },
+  {
+    itemId: 77,
+    linkTitle: "The Fundamentals of Control Theory",
+    linkHref:
+      "https://drive.google.com/file/d/1LAjaDDViFG4H7dQ6PQVHo8XSQHS59GJf/view",
+    linkAuthor: ["Brian Douglas"],
+    linkTags: ["systems"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20221005121218/https://drive.google.com/file/d/1LAjaDDViFG4H7dQ6PQVHo8XSQHS59GJf/view",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33071119",
+      },
+    ],
+  },
+  {
+    itemId: 78,
+    linkTitle: "On AlphaTensor's new matrix multiplication algorithms",
+    linkHref:
+      "https://fgiesen.wordpress.com/2022/10/06/on-alphatensors-new-matrix-multiplication-algorithms/",
+    linkAuthor: ["Fabian Giesen"],
+    linkTags: ["computation"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230724223712/https://fgiesen.wordpress.com/2022/10/06/on-alphatensors-new-matrix-multiplication-algorithms/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33117192",
+      },
+    ],
+  },
+  {
+    itemId: 79,
+    linkTitle: "Expanding the Madelbrot Set into Higher Dimensions",
+    linkHref: "https://archive.bridgesmathart.org/2010/bridges2010-247.pdf",
+    linkAuthor: ["Javier Barrallo"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230501091707/https://archive.bridgesmathart.org/2010/bridges2010-247.pdf",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33104980",
+      },
+    ],
+  },
 ];
-
-// I built a vector map from scratch
-// https://ckochis.com/building-a-vector-map-from-scratch
-// https://news.ycombinator.com/item?id=32510759
-
-// Why are D-sharp and E-flat considered to be two different notes?
-// https://www.ethanhein.com/wp/2022/why-are-d-sharp-and-e-flat-considered-to-be-two-different-notes/
-// https://news.ycombinator.com/item?id=32626218
-
-// Physically-Based Shading at Disney
-// https://static1.squarespace.com/static/58586fa5ebbd1a60e7d76d3e/t/593a3afa46c3c4a376d779f6/1496988449807/s2012_pbs_disney_brdf_notes_v2.pdf
-// https://news.ycombinator.com/item?id=32720893
-
-// Parallel Curves of Cubic Béziers
-// https://raphlinus.github.io/curves/2022/09/09/parallel-beziers.html
-// https://news.ycombinator.com/item?id=32784491
-
-// Exploring FPGA Graphics
-// https://projectf.io/posts/fpga-graphics/
-// https://news.ycombinator.com/item?id=32807903
-// https://news.ycombinator.com/item?id=25998154
-
-// ianthehenry/bauble.studio
-// https://github.com/ianthehenry/bauble.studio
-// https://news.ycombinator.com/item?id=32809428
-
-// An Algorithm for Polygon Intersections
-// https://www.gorillasun.de/blog/an-algorithm-for-polygon-intersections/
-// https://news.ycombinator.com/item?id=33053320
-
-// The Fundamentals of Control Theory
-// https://engineeringmedia.com/books
-// https://news.ycombinator.com/item?id=33071119
-
-// On AlphaTensor's new matrix multiplication algorithms
-// https://fgiesen.wordpress.com/2022/10/06/on-alphatensors-new-matrix-multiplication-algorithms/
-// https://news.ycombinator.com/item?id=33117192
-
-// Expanding the Madelbrot Set into Higher Dimensions
-// https://archive.bridgesmathart.org/2010/bridges2010-247.pdf
-// https://news.ycombinator.com/item?id=33104980
 
 // Lánczos Interpolation Explained
 // https://mazzo.li/posts/lanczos.html
@@ -1212,3 +1357,5 @@ export const linksDataset: SegmentDataset<LinkItem> = [
 
 // Coloring for Colorblindness
 // https://davidmathlogic.com/colorblind/
+
+// https://en.wikipedia.org/wiki/Lyapunov_fractal
