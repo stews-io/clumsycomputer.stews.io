@@ -793,45 +793,154 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 50,
+    linkTitle: "Billy Wilcosky",
+    linkHref: "https://wilcosky.com",
+    linkAuthor: ["Billy Wilcosky"],
+    linkTags: ["blog"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 51,
+    linkTitle: "Visual explanations of core machine learning concepts",
+    linkHref: "https://mlu-explain.github.io",
+    linkAuthor: ["Jared Wilber"],
+    linkTags: ["machine learning"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230925221201/https://mlu-explain.github.io/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31455919",
+      },
+    ],
+  },
+  {
+    itemId: 52,
+    linkTitle: "symforce-org/symforce",
+    linkHref: "https://github.com/symforce-org/symforce",
+    linkAuthor: ["Aaron Miller"],
+    linkTags: ["repo"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31494328",
+      },
+    ],
+  },
+  {
+    itemId: 53,
+    linkTitle: "Magical SVG Techniques",
+    linkHref:
+      "https://www.smashingmagazine.com/2022/05/magical-svg-techniques/",
+    linkAuthor: ["Cosima Mielke"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230915230218/https://www.smashingmagazine.com/2022/05/magical-svg-techniques/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31502186",
+      },
+    ],
+  },
+  {
+    itemId: 54,
+    linkTitle: "mgramin/awesome-db-tools",
+    linkHref: "https://github.com/mgramin/awesome-db-tools",
+    linkAuthor: ["Maksim Gramin"],
+    linkTags: ["repo"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31549918",
+      },
+    ],
+  },
+  {
+    itemId: 55,
+    linkTitle: "deepkit/deepkit-framework",
+    linkHref: "https://github.com/deepkit/deepkit-framework",
+    linkAuthor: ["Marc J. Schmidt"],
+    linkTags: ["repo", "typescript"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=31663298",
+      },
+    ],
+  },
+  {
+    itemId: 56,
+    linkTitle: "Charles Petzold",
+    linkHref: "https://www.charlespetzold.com",
+    linkAuthor: ["Charles Petzold"],
+    linkTags: ["blog"],
+    secondaryLinks: [],
+  },
+  {
+    itemId: 57,
+    linkTitle:
+      "Ask HN: Is it still conceivable to remain an anonymous developer nowadays?",
+    linkHref: "https://news.ycombinator.com/item?id=31763451",
+    linkAuthor: ["synappser", "Others"],
+    linkTags: ["discussion"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20221016185942/https://news.ycombinator.com/item?id=31763451",
+      },
+    ],
+  },
+  {
+    itemId: 58,
+    linkTitle: "The Animated Elliptic Curve",
+    linkHref: "https://curves.xargs.org",
+    linkAuthor: ["Michael Driscoll"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230909140228/https://curves.xargs.org/",
+      },
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=31769059",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=36574844",
+      },
+    ],
+  },
+  {
+    itemId: 59,
+    linkTitle: "Mathematical Marbling",
+    linkHref: "https://people.csail.mit.edu/jaffer/Marbling/",
+    linkAuthor: ["Aubrey G. Jaffer"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20221106025258/https://people.csail.mit.edu/jaffer/Marbling/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32043539",
+      },
+    ],
+  },
 ];
-
-// Billy Wilcosky
-// wilcosky.com
-
-// Visual explanations of core machine learning concepts
-// https://mlu-explain.github.io
-// https://news.ycombinator.com/item?id=31455919
-
-// SymForce
-// https://news.ycombinator.com/item?id=31494328
-// https://github.com/symforce-org/symforce
-
-// Magical SVG Techniques
-// https://www.smashingmagazine.com/2022/05/magical-svg-techniques/
-// https://news.ycombinator.com/item?id=31502186
-
-// mgramin/awesome-db-tools
-// https://github.com/mgramin/awesome-db-tools
-// https://news.ycombinator.com/item?id=31549918
-
-// Deepkit
-// https://deepkit.io
-// https://news.ycombinator.com/item?id=31663298
-
-// Charles Petzold
-// https://www.charlespetzold.com
-
-// Ask HN: Is it still conceivable to remain an anonymous developer nowadays?
-// https://news.ycombinator.com/item?id=31763451
-
-// The Animated Elliptic Curve
-// https://curves.xargs.org
-// https://news.ycombinator.com/item?id=31769059
-// https://news.ycombinator.com/item?id=36574844
-
-// Mathematical Marbling
-// https://people.csail.mit.edu/jaffer/Marbling/
-// https://news.ycombinator.com/item?id=32043539
 
 // aweijnitz/recipe-el_fuego_viviente
 // https://github.com/aweijnitz/recipe-el_fuego_viviente
