@@ -940,50 +940,195 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 60,
+    linkTitle: "aweijnitz/recipe-el_fuego_viviente",
+    linkHref: "https://github.com/aweijnitz/recipe-el_fuego_viviente",
+    linkAuthor: ["Anders Weijnitz"],
+    linkTags: ["repo", "cooking"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20220715134235/https://github.com/aweijnitz/recipe-el_fuego_viviente/blob/master/README.md",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32079434",
+      },
+    ],
+  },
+  {
+    itemId: 61,
+    linkTitle: "Integer Math in Javascript",
+    linkHref: "https://james.darpinian.com/blog/integer-math-in-javascript",
+    linkAuthor: ["James Darpinian"],
+    linkTags: ["computation"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230610182748/https://james.darpinian.com/blog/integer-math-in-javascript",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32106442",
+      },
+    ],
+  },
+  {
+    itemId: 62,
+    linkTitle: "Differentiable programming from scratch",
+    linkHref: "https://thenumb.at/Autodiff/",
+    linkAuthor: ["Max Slater"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230604182605/https://thenumb.at/Autodiff/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32300351",
+      },
+    ],
+  },
+  {
+    itemId: 63,
+    linkTitle: "The Illustrated TLS 1.3 Connection",
+    linkHref: "https://tls13.xargs.org",
+    linkAuthor: ["Michael Driscoll"],
+    linkTags: ["networking"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231001234909/https://tls13.xargs.org/",
+      },
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=18400158",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=32333115",
+      },
+    ],
+  },
+  {
+    itemId: 64,
+    linkTitle: "Stack-safety for free?",
+    linkHref: "https://hurryabit.github.io/blog/stack-safety-for-free/",
+    linkAuthor: ["Martin Huschenbett"],
+    linkTags: ["computation"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20220527180733/https://hurryabit.github.io/blog/stack-safety-for-free/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=29459432",
+      },
+    ],
+  },
+  {
+    itemId: 65,
+    linkTitle: " Computer Graphics from Scratch",
+    linkHref: "https://gabrielgambetta.com/computer-graphics-from-scratch/",
+    linkAuthor: ["Gabriel Gambetta"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231005191227/https://gabrielgambetta.com/computer-graphics-from-scratch/",
+      },
+      {
+        linkLabel: "hnews (1)",
+        linkHref: "https://news.ycombinator.com/item?id=26017086",
+      },
+      {
+        linkLabel: "hnews (2)",
+        linkHref: "https://news.ycombinator.com/item?id=19584921",
+      },
+      {
+        linkLabel: "hnews (3)",
+        linkHref: "https://news.ycombinator.com/item?id=25266812",
+      },
+    ],
+  },
+  {
+    itemId: 66,
+    linkTitle: "Vector graphics on GPU",
+    linkHref: "https://gasiulis.name/vector-graphics-on-gpu/",
+    linkAuthor: ["Aurimas Gasiulis"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230415163406/https://gasiulis.name/vector-graphics-on-gpu/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32384016",
+      },
+    ],
+  },
+  {
+    itemId: 67,
+    linkTitle: "Ultimate list of Japanese Vegetable Cutting Techniques",
+    linkHref: "https://thechefdojo.com/japanese-vegetable-cutting-techniques/",
+    linkAuthor: ["Chef Goku"],
+    linkTags: ["cooking"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230603052924/https://thechefdojo.com/japanese-vegetable-cutting-techniques/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32448687",
+      },
+    ],
+  },
+  {
+    itemId: 68,
+    linkTitle: "Deconstructing Bezier Curves",
+    linkHref:
+      "https://blog.pkh.me/p/33-deconstructing-be%CC%81zier-curves.html",
+    linkAuthor: ["Clément Bœsch"],
+    linkTags: ["graphics"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230928002315/http://blog.pkh.me/p/33-deconstructing-be%CC%81zier-curves.html",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32479808",
+      },
+    ],
+  },
+  {
+    itemId: 69,
+    linkTitle: "Learn MYOG",
+    linkHref: "https://learnmyog.com",
+    linkAuthor: ["Tim@MYOG"],
+    linkTags: ["diy"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=32507843",
+      },
+    ],
+  },
 ];
-
-// aweijnitz/recipe-el_fuego_viviente
-// https://github.com/aweijnitz/recipe-el_fuego_viviente
-// https://news.ycombinator.com/item?id=32079434
-
-// Integer Math in Javascript
-// https://james.darpinian.com/blog/integer-math-in-javascript
-// https://news.ycombinator.com/item?id=32106442
-
-// Differentiable programming from scratch
-// https://thenumb.at/Autodiff/
-// https://news.ycombinator.com/item?id=32300351
-
-// The Illustrated TLS 1.3 Connection
-// https://tls13.xargs.org
-// https://news.ycombinator.com/item?id=18400158
-// https://news.ycombinator.com/item?id=32333115
-
-// Stack-safety for free?
-// https://hurryabit.github.io/blog/stack-safety-for-free/
-// https://news.ycombinator.com/item?id=29459432
-
-// Computer Graphics from Scratch
-// https://gabrielgambetta.com/computer-graphics-from-scratch/
-// https://news.ycombinator.com/item?id=26017086
-// https://news.ycombinator.com/item?id=19584921
-// https://news.ycombinator.com/item?id=25266812
-
-// Vector graphics on GPU
-// https://gasiulis.name/vector-graphics-on-gpu/
-// https://news.ycombinator.com/item?id=32384016
-
-// Ultimate list of Japanese Vegetable Cutting Techniques
-// https://thechefdojo.com/japanese-vegetable-cutting-techniques/
-// https://news.ycombinator.com/item?id=32448687
-
-// Deconstructing Bezier Curves
-// http://blog.pkh.me/p/33-deconstructing-bézier-curves.html
-// https://news.ycombinator.com/item?id=32479808
-
-// Learn MYOG (Make Your Own Outdoor Gear)
-// https://learnmyog.com
-// https://news.ycombinator.com/item?id=32507843
 
 // I built a vector map from scratch
 // https://ckochis.com/building-a-vector-map-from-scratch
