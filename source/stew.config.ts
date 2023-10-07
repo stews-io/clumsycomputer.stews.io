@@ -286,6 +286,74 @@ function getStewConfig(): SourceStewConfig {
               (someLinkItem) => someLinkItem.itemId
             ),
           },
+          {
+            viewKey: "color",
+            viewLabel: "color",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "color"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+          {
+            viewKey: "math",
+            viewLabel: "math",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "math"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+          {
+            viewKey: "computation",
+            viewLabel: "computation",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "computation"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+          {
+            viewKey: "graphics",
+            viewLabel: "graphics",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "graphics"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
         ],
       },
     ],

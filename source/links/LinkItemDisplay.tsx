@@ -15,8 +15,8 @@ export function LinkItemDisplay(props: LinkItemDisplayProps) {
       <div className={cssModule.titleButtonContainer}>
         <LinkButton
           href={someSegmentItem.linkHref}
-          ariaLabel={"todo"}
-          ariaDescription={"todo"}
+          ariaLabel={`open "${someSegmentItem.linkTitle}"`}
+          ariaDescription={`a button that opens up a new tab and navigates to ${someSegmentItem.linkHref}`}
           target={"_blank"}
         >
           <div className={cssModule.titleText}>
@@ -24,7 +24,7 @@ export function LinkItemDisplay(props: LinkItemDisplayProps) {
           </div>
         </LinkButton>
       </div>
-      <div className={cssModule.itemLabelsContainer}>
+      <div className={cssModule.itemLabelsContainer} role={"list"}>
         {someSegmentItem.linkAuthor.map((someLinkAuthor) => (
           <ItemStickerContainer>
             <ItemSticker>
@@ -35,7 +35,7 @@ export function LinkItemDisplay(props: LinkItemDisplayProps) {
         {someSegmentItem.linkTags.map((someLinkTag) => (
           <ItemStickerContainer>
             <ItemSticker>
-              <ItemLabel>{someLinkTag}</ItemLabel>
+              <ItemLabel>{someLinkTag.toLocaleLowerCase()}</ItemLabel>
             </ItemSticker>
           </ItemStickerContainer>
         ))}
@@ -43,8 +43,8 @@ export function LinkItemDisplay(props: LinkItemDisplayProps) {
           <ItemStickerContainer>
             <LinkButton
               href={someSecondaryLink.linkHref}
-              ariaLabel={"todo"}
-              ariaDescription={"todo"}
+              ariaLabel={`open "${someSecondaryLink.linkLabel}" link for "${someSegmentItem.linkTitle}"`}
+              ariaDescription={`a button that opens up a new tab and navigates to ${someSecondaryLink.linkHref}`}
               target={"_blank"}
             >
               <ItemSticker>
@@ -76,7 +76,11 @@ interface ItemStickerContainerProps {
 
 function ItemStickerContainer(props: ItemStickerContainerProps) {
   const { children } = props;
-  return <div className={cssModule.itemStickerContainer}>{children}</div>;
+  return (
+    <div className={cssModule.itemStickerContainer} role={"listitem"}>
+      {children}
+    </div>
+  );
 }
 
 interface ItemStickerProps {

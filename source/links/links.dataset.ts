@@ -1314,48 +1314,206 @@ export const linksDataset: SegmentDataset<LinkItem> = [
       },
     ],
   },
+  {
+    itemId: 80,
+    linkTitle: "Lánczos Interpolation Explained",
+    linkHref: "https://mazzo.li/posts/lanczos.html",
+    linkAuthor: ["Francesco Mazzoli"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230329131924/https://mazzo.li/posts/lanczos.html",
+      },
+    ],
+  },
+  {
+    itemId: 81,
+    linkTitle: "Algebraic Geometry for Computer Graphics",
+    linkHref: "https://courses.cs.washington.edu/courses/cse590b/13au/",
+    linkAuthor: ["James F. Blinn"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230712202858/https://courses.cs.washington.edu/courses/cse590b/13au/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33133369",
+      },
+    ],
+  },
+  {
+    itemId: 82,
+    linkTitle: "Why 23.976 and not 24 FPS?",
+    linkHref:
+      "https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454",
+    linkAuthor: ["David Mullen"],
+    linkTags: ["video-encoding"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20221101121140/https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33145470",
+      },
+    ],
+  },
+  {
+    itemId: 83,
+    linkTitle: "Seven sins of numerical linear algebra",
+    linkHref:
+      "https://nhigham.com/2022/10/11/seven-sins-of-numerical-linear-algebra/",
+    linkAuthor: ["Nick Higham"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230320182247/https://nhigham.com/2022/10/11/seven-sins-of-numerical-linear-algebra/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33173443",
+      },
+    ],
+  },
+  {
+    itemId: 84,
+    linkTitle: "Introduction to math for game developers",
+    linkHref:
+      "https://docs.godotengine.org/en/stable/tutorials/math/vector_math.html",
+    linkAuthor: ["Godot Engine"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230831220949/https://docs.godotengine.org/en/stable/tutorials/math/vector_math.html",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=36637964",
+      },
+    ],
+  },
+  {
+    itemId: 85,
+    linkTitle: "What do numbers look like?",
+    linkHref: "https://johnhw.github.io/umap_primes/index.md.html",
+    linkAuthor: ["johnhw"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230624185345/https://johnhw.github.io/umap_primes/index.md.html",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33580136",
+      },
+    ],
+  },
+  {
+    itemId: 86,
+    linkTitle: "Spurious Splines",
+    linkHref: "https://inconvergent.net/2016/spurious-splines/",
+    linkAuthor: ["Anders Hoff"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230502133529/https://inconvergent.net/2016/spurious-splines/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=13109225",
+      },
+    ],
+  },
+  {
+    itemId: 87,
+    linkTitle: "Demystifying Fourier analysis",
+    linkHref: "https://dsego.github.io/demystifying-fourier/",
+    linkAuthor: ["Davorin Šego"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230228041825/https://dsego.github.io/demystifying-fourier/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33636639",
+      },
+    ],
+  },
+  {
+    itemId: 88,
+    linkTitle: "The 12-bit rainbow palette",
+    linkHref: "https://iamkate.com/data/12-bit-rainbow/",
+    linkAuthor: ["Kate Morley"],
+    linkTags: ["color"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20231006184319/https://iamkate.com/data/12-bit-rainbow/",
+      },
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33651724",
+      },
+    ],
+  },
+  {
+    itemId: 89,
+    linkTitle: "markwylde/workerbox",
+    linkHref: "https://github.com/markwylde/workerbox",
+    linkAuthor: ["Mark Wylde"],
+    linkTags: ["repo"],
+    secondaryLinks: [
+      {
+        linkLabel: "hnews",
+        linkHref: "https://news.ycombinator.com/item?id=33673047",
+      },
+    ],
+  },
+  {
+    itemId: 90,
+    linkTitle: "Coloring for Colorblindness",
+    linkHref: "https://davidmathlogic.com/colorblind/",
+    linkAuthor: ["David Nichols"],
+    linkTags: ["color"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230910100653/https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40",
+      },
+    ],
+  },
+  {
+    itemId: 91,
+    linkTitle: "Lyapunov Orbits",
+    linkHref: "https://gereshes.com/2019/02/04/lyapunov-orbits/",
+    linkAuthor: ["Ari Rubinsztejn"],
+    linkTags: ["math"],
+    secondaryLinks: [
+      {
+        linkLabel: "archive",
+        linkHref:
+          "https://web.archive.org/web/20230000000000*/https://gereshes.com/2019/02/04/lyapunov-orbits/",
+      },
+    ],
+  },
 ];
-
-// Lánczos Interpolation Explained
-// https://mazzo.li/posts/lanczos.html
-
-// Algebraic Geometry for Computer Graphics
-// https://courses.cs.washington.edu/courses/cse590b/13au/
-// https://news.ycombinator.com/item?id=33133369
-
-// Why 23.976 and not 24 FPS?
-// https://cinematography.com/index.php?/forums/topic/71346-why-23976-and-not-24-fps/&tab=comments#comment-455454
-// https://news.ycombinator.com/item?id=33145470
-
-// Seven sins of numerical linear algebra
-// https://nhigham.com/2022/10/11/seven-sins-of-numerical-linear-algebra/
-// https://news.ycombinator.com/item?id=33173443
-
-// Introduction to math for game developers
-// https://docs.godotengine.org/en/stable/tutorials/math/vector_math.html
-// https://news.ycombinator.com/item?id=36637964
-
-// What do numbers look like?
-// https://johnhw.github.io/umap_primes/index.md.html
-// https://news.ycombinator.com/item?id=33580136
-
-// Spurious Splines
-// https://inconvergent.net/2016/spurious-splines/
-// https://news.ycombinator.com/item?id=13109225
-
-// Demystifying Fourier analysis
-// https://dsego.github.io/demystifying-fourier/
-// https://news.ycombinator.com/item?id=33636639
-
-// The 12-bit rainbow palette
-// https://news.ycombinator.com/item?id=33651724
-// https://iamkate.com/data/12-bit-rainbow/
-
-// Run unsafe user generated JavaScript in the browser
-// https://workerbox.net
-// https://news.ycombinator.com/item?id=33673047
-
-// Coloring for Colorblindness
-// https://davidmathlogic.com/colorblind/
-
-// https://en.wikipedia.org/wiki/Lyapunov_fractal
