@@ -7,6 +7,7 @@ import {
 } from "stew/config/helpers";
 import { musicDataset } from "./music/music.dataset.ts";
 import { spotsDataset } from "./spots/spots.dataset.ts";
+import { linksDataset } from "./links/links.dataset.ts";
 
 export default getStewConfig();
 
@@ -42,7 +43,7 @@ function getStewConfig(): SourceStewConfig {
     stewSegments: [
       {
         segmentDataset: musicDataset,
-        segmentModulePath: "./music/music.module.tsx",
+        segmentModulePath: "./music/music.module.ts",
         segmentKey: "music",
         segmentLabel: "music",
         segmentViews: [
@@ -191,7 +192,7 @@ function getStewConfig(): SourceStewConfig {
       },
       {
         segmentDataset: spotsDataset,
-        segmentModulePath: "./spots/spots.module.tsx",
+        segmentModulePath: "./spots/spots.module.ts",
         segmentKey: "spots",
         segmentLabel: "spots",
         segmentViews: [
@@ -264,6 +265,89 @@ function getStewConfig(): SourceStewConfig {
                   ) >= 0
                 ) {
                   viewItemIdsResult.push(someSpotItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+        ],
+      },
+      {
+        segmentDataset: linksDataset,
+        segmentKey: "links",
+        segmentLabel: "links",
+        segmentModulePath: "./links/links.module.ts",
+        segmentViews: [
+          {
+            viewKey: "all",
+            viewLabel: "all",
+            viewItemIds: linksDataset.map(
+              (someLinkItem) => someLinkItem.itemId
+            ),
+          },
+          {
+            viewKey: "color",
+            viewLabel: "color",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "color"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+          {
+            viewKey: "math",
+            viewLabel: "math",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "math"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+          {
+            viewKey: "computation",
+            viewLabel: "computation",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "computation"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
+                }
+                return viewItemIdsResult;
+              },
+              []
+            ),
+          },
+          {
+            viewKey: "graphics",
+            viewLabel: "graphics",
+            viewItemIds: linksDataset.reduce<Array<number>>(
+              (viewItemIdsResult, someLinkItem) => {
+                if (
+                  someLinkItem.linkTags.findIndex(
+                    (someLinkTag) => someLinkTag === "graphics"
+                  ) >= 0
+                ) {
+                  viewItemIdsResult.push(someLinkItem.itemId);
                 }
                 return viewItemIdsResult;
               },
