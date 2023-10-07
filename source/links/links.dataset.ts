@@ -1,4 +1,4 @@
-import { SegmentDataset } from "stew/config";
+import { SegmentDataset } from "stew/config/mod.ts";
 import { LinkItem } from "./LinkItem.ts";
 
 export const linksDataset: SegmentDataset<LinkItem> = [

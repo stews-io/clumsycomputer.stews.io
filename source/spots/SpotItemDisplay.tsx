@@ -1,5 +1,5 @@
-import { MultiLinkImageItemDisplay } from "stew/components";
-import { SegmentItemDisplayProps } from "stew/config";
+import { MultiLinkImageItemDisplay } from "stew/components/mod.ts";
+import { SegmentItemDisplayProps } from "stew/config/mod.ts";
 import { SpotItem } from "./SpotItem.ts";
 
 export interface SpotItemDisplayProps

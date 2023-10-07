@@ -1,6 +1,6 @@
 import { ComponentChildren } from "preact";
-import { LinkButton } from "stew/components";
-import { SegmentItemDisplayProps } from "stew/config";
+import { LinkButton } from "stew/components/mod.ts";
+import { SegmentItemDisplayProps } from "stew/config/mod.ts";
 import { LinkItem } from "./LinkItem.ts";
 // @deno-types="CssModule"
 import cssModule from "./LinkItemDisplay.module.scss";

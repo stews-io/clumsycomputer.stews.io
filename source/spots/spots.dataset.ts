@@ -1,4 +1,4 @@
-import { SegmentDataset } from "stew/config";
+import { SegmentDataset } from "stew/config/mod.ts";
 import { getGoogleLinkData, getWebsiteLinkData } from "./getSpotLinkData.ts";
 import { SpotItem } from "./SpotItem.ts";
 
