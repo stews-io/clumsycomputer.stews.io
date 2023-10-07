@@ -1,5 +1,5 @@
-import { SegmentItem } from "stew/config";
-import { ArrayOfAtLeastOne } from "stew/utilities";
+import { SegmentItem } from "stew/config/mod.ts";
+import { ArrayOfAtLeastOne } from "stew/utilities/mod.ts";
 
 export interface SpotItem extends SegmentItem {
   spotName: string;

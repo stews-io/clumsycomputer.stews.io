@@ -1,4 +1,4 @@
-import { SegmentModule } from "stew/config";
+import { SegmentModule } from "stew/config/mod.ts";
 import { LinkItem } from "./LinkItem.ts";
 import { LinkItemDisplay } from "./LinkItemDisplay.tsx";
 
