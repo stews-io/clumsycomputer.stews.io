@@ -1,4 +1,4 @@
-import { MultiLinkImageItemDisplay } from "stew/components/mod.ts";
+import { ThumbnailLinksDisplay } from "stew/components/mod.ts";
 import { SegmentItemDisplayProps } from "stew/config/mod.ts";
 import { SpotItem } from "./SpotItem.ts";
 
@@ -8,7 +8,7 @@ export interface SpotItemDisplayProps
 export function SpotItemDisplay(props: SpotItemDisplayProps) {
   const { someSegmentItem } = props;
   return (
-    <MultiLinkImageItemDisplay
+    <ThumbnailLinksDisplay
       itemTitle={someSegmentItem.spotName}
       itemThumbnailHref={someSegmentItem.spotThumbnailHref}
       itemLinks={someSegmentItem.spotLinks.map((someSpotLink) => ({
@@ -18,15 +18,15 @@ export function SpotItemDisplay(props: SpotItemDisplayProps) {
       }))}
       itemLabelLists={[
         {
-          accessibilityLabel: "spot name",
+          ariaLabel: "spot name",
           listLabels: [someSegmentItem.spotName],
         },
         {
-          accessibilityLabel: "spot location",
+          ariaLabel: "spot location",
           listLabels: [someSegmentItem.spotLocation.slice(0, 2).join(", ")],
         },
         {
-          accessibilityLabel: "spot tags",
+          ariaLabel: "spot tags",
           listLabels: someSegmentItem.spotTags,
         },
       ]}
