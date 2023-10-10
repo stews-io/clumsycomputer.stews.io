@@ -17,7 +17,7 @@ function getStewConfig(): SourceStewConfig {
       stewName: "clumsycomputer",
       stewTagline: "colorful colorado",
       stewMessage: "just trying to listen and groove",
-      stewExternalLinks: [
+      stewLinks: [
         {
           linkLabel: "website",
           linkHref: "https://clumsycomputer.com",
